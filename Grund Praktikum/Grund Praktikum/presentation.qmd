@@ -1,0 +1,188 @@
+---
+title: "Weltweite Entwicklung von Fruchtbarkeitsraten und Kindersterblichkeit"
+author: "Kaiyan Xie,Yixiang Wang,Yuheng Yang,Yidan Jin"
+institute: ""
+date: "`r Sys.Date()`"
+format: 
+  revealjs:
+    css: customstyle.css
+    embed-resources: true
+    slide-number: c
+editor: visual
+---
+```{r setup, include=FALSE}
+source("setup.R")
+```
+
+## Agenda
+
+::: incremental
+1.  Überblick
+
+2.  Datenanalyse
+
+    Fruchtbarkeit und Kindersterblichkeit mit Staatpolitik\
+    Fruchtbarkeit und Kindersterblichkeit mit Wirtschaft\
+    Fruchtbarkeit und weibliche Ausbildung
+
+3.  Zusammenfassung
+:::
+
+##
+**Fruchtbarkeit in den letzten Jahren**
+
+```{r Geburtenrate, fig.align='center', warning=FALSE, message=FALSE, echo=FALSE, fig.width=7, fig.height=5,fig.dpi=300}
+source("Programm/Fertilityrate.R")
+```
+
+## 
+**Kindersterblichkeit in den letzten Jahren**
+
+```{r Child_mortality, fig.align='center', warning=FALSE, message=FALSE, echo=FALSE, fig.width=7, fig.height=5,fig.dpi=300}
+source("Programm/Mortalityrate.R")
+```
+
+## 
+**Geburtenrate in Ländern**
+
+```{r Child_Fertilityrate_region, fig.align='center', warning=FALSE, message=FALSE, echo=FALSE, fig.width=7, fig.height=5,fig.dpi=300}
+source("Programm/Fertilityrate_region.R")
+```
+
+## 
+**Unterschiede in Ländern**
+
+```{r Child_mortality_region, fig.align='center', warning=FALSE, message=FALSE, echo=FALSE, fig.width=7, fig.height=5,fig.dpi=300}
+source("Programm/Mortalityrate_region.R")
+```
+
+## 
+**Geburtenrate und Kindersterblichkeitsrate**
+
+```{r Fertilityrate_mortality, fig.align='center', warning=FALSE, message=FALSE, echo=FALSE, fig.width=7, fig.height=5,fig.dpi=300}
+source("Programm/Fertilityrate_mortality.R")
+```
+
+## Agenda
+
+[1. Überblick]{style="color:lightgray"}
+
+2.  Datenanalyse
+
+    Fruchtbarkeit und Kindersterblichkeit mit Staatpolitik\
+    [Fruchtbarkeit und Kindersterblichkeit mit Wirtschaft]{style="color:lightgray"}\
+    [Fruchtbarkeit und weibliche Ausbildung]{style="color:lightgray"}
+
+[3. Zusammenfassung]{style="color:lightgray"}
+
+## 
+**Geburtenraten mit der Staatspolitik**
+
+```{r Fertilityrate_politik, fig.align='center', warning=FALSE, message=FALSE, echo=FALSE, fig.width=7, fig.height=5,fig.dpi=300}
+source("Programm/Fertilityrate_politik.R")
+```
+
+##
+**Kindersterblichkeit mit Demokratie**
+```{r Mortality_politik, fig.align='center', warning=FALSE, message=FALSE, echo=FALSE, fig.width=9, fig.height=5,fig.dpi=300}
+source("Programm/Mortality_politik.R")
+```
+
+## Agenda
+
+[1. Überblick]{style="color:lightgray"}
+
+2.  Datenanalyse
+
+    [Fruchtbarkeit und Kindersterblichkeit mit Staatpolitik]{style="color:lightgray"}\
+    Fruchtbarkeit und Kindersterblichkeit mit Wirtschaft\
+    [Fruchtbarkeit und weibliche Ausbildung]{style="color:lightgray"}
+
+[3. Zusammenfassung]{style="color:lightgray"}
+
+## 
+**Wirtschaft und Geburtenrate**
+```{r Fertilityrate_GDP, fig.align='center', warning=FALSE, message=FALSE, echo=FALSE, fig.width= 9, fig.height=5,fig.dpi=300}
+source("Programm/GDP_Fertilityrate.R")
+```
+
+##
+**Wirtschaft und Verstäderung/Verstäderung und Landwirtschaft**
+```{r Agri_Urban, fig.align='center', warning=FALSE, message=FALSE, echo=FALSE, fig.width= 18, fig.height=8,fig.dpi=600}
+source("Programm/Agri_Urban.R")
+```
+
+##
+**Wirtschaft und Landwirtschaft**
+```{r GDP_Agri, fig.align='center', warning=FALSE, message=FALSE, echo=FALSE, fig.width= 9, fig.height=5,fig.dpi=300}
+source("Programm/GDP_Agri.R")
+```
+
+##
+**Geburtenrate und Landwirtschaft**
+```{r Agri_emplo, fig.align='center', warning=FALSE, message=FALSE, echo=FALSE, fig.width= 18, fig.height=8,fig.dpi=600}
+source("Programm/Fertility_Rate_Agri_emplo.R")
+```
+
+## 
+**Wirtschaft und Kindersterblichkeitsrate**
+```{r GDP_Mortality, fig.align='center', warning=FALSE, message=FALSE, echo=FALSE, fig.width= 8, fig.height=5,fig.dpi=300}
+source("Programm/GDP_Mortality.R")
+```
+
+##
+**Gesundheitsausgaben und Kindersterblichkeit**
+```{r GDP_Health, fig.align='center', warning=FALSE, message=FALSE, echo=FALSE, fig.width= 18, fig.height=8,fig.dpi=600}
+source("Programm/GDP_Health.R")
+```
+
+##
+**Unterernährung und Kindersterblichkeit**
+```{r Mortality_Unterernährung, fig.align='center', warning=FALSE, message=FALSE, echo=FALSE, fig.width= 7, fig.height=5,fig.dpi=300}
+source("Programm/Mortality_Unterernährung.R")
+```
+
+## Agenda
+
+[1. Überblick]{style="color:lightgray"}
+
+2.  Datenanalyse
+
+    [Fruchtbarkeit und Kindersterblichkeit mit Staatpolitik]{style="color:lightgray"}\
+    [Fruchtbarkeit und Kindersterblichkeit mit Wirtschaft]{style="color:lightgray"}\
+    Fruchtbarkeit und weibliche Ausbildung
+
+[3. Zusammenfassung]{style="color:lightgray"}
+
+## 
+**Geburtenrate und Schuljahren von Frauen**
+
+```{r Fertilityrate_schollingyears, fig.align='center', warning=FALSE, message=FALSE, echo=FALSE, fig.width= 18, fig.height=8,fig.dpi=300}
+source("Programm/Fertilityrate_schollingyears.R")
+```
+
+## 
+**Geburtenrate und Schulbildung**
+
+```{r Fertilityrate_percentage_noEdu, fig.align='center', warning=FALSE, message=FALSE, echo=FALSE, fig.width=18, fig.height=8,fig.dpi=600}
+source("Programm/Fertilityrate_percentage_noEdu.R")
+```
+
+## 
+**Andere Faktoren:Verhütungsmitteln**
+
+```{r Fertilityrate_Verhütung, fig.align='center', warning=FALSE, message=FALSE, echo=FALSE, fig.width=7, fig.height=5,fig.dpi=300}
+source("Programm/Fertilityrate_Verhütung.R")
+```
+
+## Agenda
+
+[1. Überblick]{style="color:lightgray"}
+
+[2. Datenanalyse]{style="color:lightgray"}
+
+3.  Zusammenfassung
+
+## Zusammenfassung
+
+## Quelle
