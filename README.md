@@ -14,4 +14,4 @@ In den letzen Jahren hat sich die weltweite Geburtenrate einem Niveau von etwa 2
 
 3. Welche Beziehung besteht zwischen Geburten- und Kindersterblichkeit?
 
-4. In welchem Zusammhang stehen die Geburten- und Kindersterblichkeitsraten mit anderen Faktoren (z.B. Politik, wirtschsftliche Ungleichheit, Bildung von Frauen)?
+4. In welchem Zusammhang stehen die Geburten- und Kindersterblichkeitsraten mit anderen Faktoren (z.B. Politik, wirtschaftliche Ungleichheit, Bildung von Frauen)?
