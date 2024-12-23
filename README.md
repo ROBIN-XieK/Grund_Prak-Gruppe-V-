@@ -1,8 +1,6 @@
 # Entwicklung der globalen Geburten- und Kindersterblichkeitsrate
 
-*Autor*: *Juliet Fleischer, Yichen Han, Haoran Ju, Julia Ngo*
-
-Inhaltlich verantwortlich: Yichen Han
+*Autor : Yuheng Yang, Kaiyan Xie, Yidan Jin, Yixiang Wang*
 
 ## Hintergrund:
 
