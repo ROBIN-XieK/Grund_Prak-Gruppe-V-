@@ -1,0 +1,221 @@
+---
+title: "Weltweite Entwicklung von Fruchtbarkeitsraten und Kindersterblichkeit"
+author: "Kaiyan Xie, Yidan Jin, Yixiang Wang, Yuheng Yang"
+institute: "Dr. Sabine Hoffmann"
+date: "2025-1-16"
+format: 
+  revealjs:
+    css: customstyle.css
+    embed-resources: true
+    slide-number: c
+    logo: "Results/LMU_Logo.png"
+editor: visual
+---
+
+```{r setup, include=FALSE}
+source("setup.R")
+```
+
+## Agenda
+
+::: incremental
+1.  Überblick
+
+2.  Datenanalyse
+
+    Fruchtbarkeitsrate mit Staatpolitik\
+    Fruchtbarkeits- und Kindersterblichkeitsrate mit Wirtschaft\
+    Fruchtbarkeitsrate und weibliche Ausbildung
+
+3.  Zusammenfassung
+:::
+
+## Terminologie {.custom-smaller}
+
+::: incremental
+-   **Fruchtbarkeitsrate**: Durchschnittliche Anzahl von Kindern pro Frau
+
+-   **Kindersterblichkeitsrate**: Anteil der Kinder, die vor dem 5. Lebensjahr sterben, an 1000 Geburten
+
+-   **Geburtenrate**: Anzahl der Geburten pro 1.000 Bevölkerung
+
+-   **BIP**: Bruttoinlandsprodukt
+
+-   **PS/kH**: Pferdestärke pro 1000 Hektar
+:::
+
+## Agenda
+
+1.  Überblick
+
+[2. Datenanalyse]{style="color:lightgray"}
+
+[3. Zusammenfassung]{style="color:lightgray"}
+
+## Fruchtbarkeitsrate in den letzten Jahren
+
+```{r Geburtenrate, fig.align='center', warning=FALSE, message=FALSE, echo=FALSE, fig.width=9, fig.height=5,fig.dpi=300}
+knitr::include_graphics("Results/Fertilityrate.png")
+```
+
+## Kindersterblichkeit in den letzten Jahren
+
+```{r Child_mortality, fig.align='center', warning=FALSE, message=FALSE, echo=FALSE, fig.width=9, fig.height=5,fig.dpi=300}
+knitr::include_graphics("Results/Mortalityrate.png")
+```
+
+## Fruchtbarkeitsrate in Ländern
+
+```{r Child_Fertilityrate_region, fig.align='center', warning=FALSE, message=FALSE, echo=FALSE, fig.width=9, fig.height=5,fig.dpi=300}
+knitr::include_graphics("Results/Fertilityrate_region.png")
+```
+
+## Kindersterblichkeitrate in Ländern
+
+```{r Child_mortality_region, fig.align='center', warning=FALSE, message=FALSE, echo=FALSE, fig.width=9, fig.height=5,fig.dpi=300}
+knitr::include_graphics("Results/Mortalityrate_region.png")
+```
+
+## Fruchtbarkeits- und Kindersterblichkeitsrate
+
+```{r Fertilityrate_mortality, fig.align='center', warning=FALSE, message=FALSE, echo=FALSE, fig.width=9, fig.height=5,fig.dpi=300}
+knitr::include_graphics("Results/Fertilityrate_mortality.png")
+```
+
+## Agenda
+
+[1. Überblick]{style="color:lightgray"}
+
+2.  Datenanalyse
+
+    Fruchtbarkeitsrate mit Staatpolitik\
+    [Fruchtbarkeits- und Kindersterblichkeitsrate mit Wirtschaft]{style="color:lightgray"}\
+    [Fruchtbarkeitsrate und weibliche Ausbildung]{style="color:lightgray"}
+
+[3. Zusammenfassung]{style="color:lightgray"}
+
+## Fruchtbarkeitsrate mit der Staatspolitik
+
+```{r Fertilityrate_politik, fig.align='center', warning=FALSE, message=FALSE, echo=FALSE, fig.width=9, fig.height=5,fig.dpi=300}
+knitr::include_graphics("Results/Fertilityrate_politik.png")
+```
+
+## Agenda
+
+[1. Überblick]{style="color:lightgray"}
+
+2.  Datenanalyse
+
+    [Fruchtbarkeitsrate mit Staatpolitik]{style="color:lightgray"}\
+    Fruchtbarkeits- und Kindersterblichkeitsrate mit Wirtschaft\
+    [Fruchtbarkeitsrate und weibliche Ausbildung]{style="color:lightgray"}
+
+[3. Zusammenfassung]{style="color:lightgray"}
+
+## Wirtschaft und Fruchtbarkeitsrate
+
+```{r Fertilityrate_GDP, fig.align='center', warning=FALSE, message=FALSE, echo=FALSE, fig.width= 9, fig.height=5,fig.dpi=300}
+knitr::include_graphics("Results/GDP_Fertilityrate.png")
+```
+
+## Wirtschaft und Landwirtschaft
+
+```{r GDP_Agri, fig.align='center', warning=FALSE, message=FALSE, echo=FALSE, fig.width= 9, fig.height=5,fig.dpi=300}
+knitr::include_graphics("Results/GDP_Agri.png")
+```
+
+## Geburtenrate und Landwirtschaft
+
+```{r Agri_emplo, fig.align='center', warning=FALSE, message=FALSE, echo=FALSE, fig.width= 25, fig.height=14,fig.dpi=300}
+knitr::include_graphics("Results/Fertility_Rate_Agri_emplo.png")
+```
+
+## Wirtschaft und Kindersterblichkeitsrate
+
+```{r GDP_Mortality, fig.align='center', warning=FALSE, message=FALSE, echo=FALSE, fig.width= 9, fig.height=5,fig.dpi=300}
+knitr::include_graphics("Results/GDP_Mortality.png")
+```
+
+## Gesundheitsausgaben und Kindersterblichkeit
+
+```{r GDP_Health, fig.align='center', warning=FALSE, message=FALSE, echo=FALSE, fig.width= 25, fig.height=14,fig.dpi=300}
+knitr::include_graphics("Results/GDP_Health.png")
+```
+
+## Agenda
+
+[1. Überblick]{style="color:lightgray"}
+
+2.  Datenanalyse
+
+    [Fruchtbarkeitsrate mit Staatpolitik]{style="color:lightgray"}\
+    [Fruchtbarkeits- und Kindersterblichkeitsrate mit Wirtschaft]{style="color:lightgray"}\
+    Fruchtbarkeitsrate und weibliche Ausbildung
+
+[3. Zusammenfassung]{style="color:lightgray"}
+
+## Fruchtbarkeitsrate und Schulbildung
+
+```{r Fertilityrate_percentage_noEdu, fig.align='center', warning=FALSE, message=FALSE, echo=FALSE, fig.width=25, fig.height=14,fig.dpi=300}
+knitr::include_graphics("Results/Fertilityrate_percentage_noEdu.png")
+```
+
+## Fruchtbarkeitsrate und Bildungsjahren
+
+```{r Fertilityrate_schollingyears, fig.align='center', warning=FALSE, message=FALSE, echo=FALSE, fig.width= 25, fig.height=14,fig.dpi=300}
+knitr::include_graphics("Results/Fertilityrate_schollingyears.png")
+```
+
+## Agenda
+
+[1. Überblick]{style="color:lightgray"}
+
+[2. Datenanalyse]{style="color:lightgray"}
+
+3.  Zusammenfassung
+
+## Zusammenfassung
+
+::: incremental
+-   Die Fruchtbarkeits- und Kindersterblichkeitsraten sinken
+
+-   Politische Maßnahmen sind wirksam bei der Beschränkung der Fruchtbarkeitsraten
+
+-   Höhere Fruchtbarkeitsraten in wirtschaftlich schwachen landwirtschaftlichen Regionen mit hohem Arbeitskräftebedarf
+
+-   Höhere Gesundheitsausgaben und niedrigere Kindersterblichkeit in wohlhabenden Gebieten
+
+-   In Regionen mit hohem Bildungsstand der Frauen sind die Fruchtbarkeitsraten vergleichsweise niedriger
+:::
+
+## Quelle {.smaller .scrollable}
+
+-   \[1\]https://ourworldindata.org/grapher/children-per-woman-un.csv?v=1&csvType=full&useColumnShortNames=true
+
+-   \[2\]https://ourworldindata.org/grapher/child-mortality-igme.csv?v=1&csvType=full&useColumnShortNames=true
+
+-   \[3\]https://ourworldindata.org/grapher/child-mortality-vs-electoral-democracy.csv?v=1&csvType=full&useColumnShortNames=true
+
+-   \[4\]https://ourworldindata.org/grapher/children-per-woman-fertility-rate-vs-level-of-prosperity.csv?v=1&csvType=filtered&useColumnShortNames=true
+
+-   \[5\]https://ourworldindata.org/grapher/gdp-vs-agriculture-employment.csv?v=1&csvType=filtered&useColumnShortNames=true
+
+-   \[6\]https://ourworldindata.org/grapher/crude-birth-rate.csv?v=1&csvType=filtered&useColumnShortNames=true&time=2019
+
+-   \[7\]https://ourworldindata.org/grapher/share-of-the-labor-force-employed-in-agriculture.csv?v=1&csvType=filtered&useColumnShortNames=true
+
+-   \[8\]https://ourworldindata.org/grapher/machinery-per-agricultural-land.csv?v=1&csvType=filtered&useColumnShortNames=true
+
+-   \[9\]https://ourworldindata.org/grapher/child-mortality-gdp-per-capita.csv?v=1&csvType=filtered&useColumnShortNames=true&time=2019
+
+-   \[10\]https://ourworldindata.org/grapher/healthcare-expenditure-vs-gdp.csv?v=1&csvType=filtered&useColumnShortNames=true&time=2019
+
+-   \[11\]https://ourworldindata.org/grapher/child-mortality-vs-health-expenditure.csv?v=1&csvType=filtered&useColumnShortNames=true&time=2019
+
+-   \[12\]https://ourworldindata.org/grapher/population.csv?v=1&csvType=full&useColumnShortNames=true
+
+-   \[13\]https://ourworldindata.org/grapher/child-mortality-vs-wasting.csv?v=1&csvType=full&useColumnShortNames=true
+
+-   \[14\]https://ourworldindata.org/grapher/fertility-rate-vs-mean-years-of-schooling.csv?v=1&csvType=full&useColumnShortNames=true
+
+-   \[15\]https://ourworldindata.org/grapher/fertility-rate-vs-share-of-women-between-25-and-29-years-old-with-no-education.csv?v=1&csvType=full&useColumnShortNames=true
