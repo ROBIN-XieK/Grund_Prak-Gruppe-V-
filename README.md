@@ -1,6 +1,6 @@
 # Weltweite Entwicklung von Fruchtbarkeitsraten und Kindersterblichkeit
 
-**Author: ** Kaiyan Xie, Yixiang Wang, Yidan Jin, Yuheng Yang
+*Author*: *Kaiyan Xie, Yixiang Wang, Yidan Jin, Yuheng Yang*
 
 Responsible for content: Yuheng Yang
 
